@@ -2,6 +2,11 @@
 #Modified_bases_only
 #opens a series of temp files - needs optimising, but works'ish
 #use at own risk
+'''this script takes a modificaiton gff file, filters out all rows which are modifications only (not methylation) 
+with a IPD score >1.7, bins them by modification positions, into XXXX bin sizes e.g. every 2000 bases.  
+Then filters out only those reads which are <> 2 standard deviations, to get a rough list of 'extreme' number modifications
+i.e. unusally high and low.
+'''
 import sys
 import numpy as np
 import pandas as pd
