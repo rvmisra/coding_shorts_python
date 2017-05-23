@@ -1,5 +1,9 @@
 # coding_shorts_python
+USE AT OWN RISK
 Python scripts to do quick and dirty parsing. 
+These scripts a far from optimised and generate lots of temp files -for debugging purposes.
+Later versions will be more pythonic and cleaner....
+
 
 Each script parses a distinct dataset from a pacbio modifications gff.
 
